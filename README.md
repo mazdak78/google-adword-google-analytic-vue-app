@@ -28,29 +28,6 @@ In case you want to use Google Adword and Google Analytic together on your Vue.j
  </script>
 ```
 
-3. Now inside each page of your vue app, you can choose a component, and inside its mounted() method, inject pageview tracking code.
-
-```
-//mounted() of component A in page 1
-mounted(){
-            gtag('config', 'UA-XXXXXXXX-X', {
-                'page_title' : 'Page title 1',
-                'page_path': '/'
-            })
-},
-```
-
-and in another page
-
-
-```
-//mounted() of component B in page 2
-mounted(){
-            gtag('config', 'UA-XXXXXXXX-X', {
-                'page_title' : 'Page title 2',
-                'page_path': '/page-2'
-            })
-},
-```
+3. Add googleAnalytic.vue component into all the pages which need to track pageview.
 
 // TODO: Add gtag_report_conversion methods
