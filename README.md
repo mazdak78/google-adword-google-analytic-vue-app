@@ -1,4 +1,4 @@
-# google-adword-google-analytic-vue-app
+# Track page view in Vue.js app while using both Google Analytic and Google AdWord
 
 In case you want to use Google Adword and Google Analytic together on your Vue.js app, and you want to show Pageviews prperly on your Google Analytic, you should follow these steps. You should link your Google AdWord account to your Google Analytic beside these steps. This instruction is only focused on coding section.
 
